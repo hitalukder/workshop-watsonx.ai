@@ -6,12 +6,13 @@ You will be required to possess an [IBM Cloud Account](https://cloud.ibm.com/).
 
 ## Table of contents
 
-- Step 1. Provision watsonx governance
-- Step 2. Create a deployment space
-- Step 3. Train a Model and add AI-Factsheet 
-- Step 4. Explore AI-Factsheet 
-- Step 5. Model Deployment & Inference
+- [Step 1. Provision watsonx governance](#step_1)
+- [Step 2. Create a deployment space](#step_2)
+- [Step 3. Train a Model and add AI-Factsheet](#step_3)
+- [Step 4. Explore AI-Factsheet](#step_4)
+- [Step 5. Model Deployment & Inference](#step_5)
 
+<a id="step_1"></a>
 ## Step 1. Provision watsonx governance
 
 Login to IBM Cloud Console https://cloud.ibm.com/
@@ -35,6 +36,7 @@ You will be presented to watsonx.governance landing page. Then Click on the Laun
 
 ![image](https://github.com/hitalukder/workshop-watsonx.ai/assets/111310676/2172e196-708a-4904-997a-3a62e436b6b0)
 
+<a id="step_2"></a>
 ## Step 2. Create a deployment space
 
 Deployment spaces contain deployable assets, deployments, deployment jobs, associated input and output data, and the associated environments. You can use spaces to deploy various assets and manage your deployments.
@@ -49,6 +51,7 @@ Click on **New Deployment Space** Give it a name and hit Create button.
 
 ![image](https://github.com/hitalukder/workshop-watsonx.ai/assets/111310676/86a4e0d4-4d0b-492c-9304-c51d51defa1d)
 
+<a id="step_3"></a>
 ## Step 3. Train a Model and add AI-Factsheet 
 
 Watson Studio provides fully-integrated industry standard tools such as R Studio and Python notebooks for data scientists to work in a collaborative environment. In this section, you explore a notebook that performs data exploration in preparation for an employee promotion usecase and add ai factsheet to the model.
@@ -71,6 +74,7 @@ Select **"Local file"**. Then, either drag and drop a file or upload the noteboo
 
 ### Notebook will be opened for development. Please follow the instruction in the notebook.
 
+<a id="step_4"></a>
 ## Step 4. Explore AI-Factsheet 
 
 In the previous step, we developed a model and saved it in the project. You can now view the saved model in the project you were working on. Now go back to the project you were working, you can see your saved model under **Assets** tab.
@@ -87,6 +91,7 @@ Proceed to the **AI Factsheet Tab**, where you will find all the metadata and fa
 
 ![image](https://github.com/hitalukder/workshop-watsonx.ai/assets/111310676/8cfd4adf-4d8d-43e5-94fb-9ed1b31703ac)
 
+<a id="step_5"></a>
 ## Step 5. Model Deployment & Inference
 
 We're now ready to deploy our developed model for online inference. To do so, navigate to the deployment space, access the assets tab, and locate the model you wish to deploy. Click on the three dots next to the model, then select the "Deploy" option from the context menu.

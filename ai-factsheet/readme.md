@@ -56,7 +56,13 @@ Click on **New Deployment Space** Give it a name and hit Create button.
 
 Watson Studio provides fully-integrated industry standard tools such as R Studio and Python notebooks for data scientists to work in a collaborative environment. In this section, you explore a notebook that performs data exploration in preparation for an employee promotion usecase and add ai factsheet to the model.
 
-To start with please proceed to the project page and select the specific project you intend to work with.
+To start with download the notebook from here https://github.com/hitalukder/workshop-watsonx.ai/blob/main/ai-factsheet/employee-promotion-ai-factsheet.ipynb or you can clone the repo with below command.
+
+```sh
+git clone git@github.com:hitalukder/workshop-watsonx.ai.git
+```
+
+Then please proceed to the project page in the watsonx platform and select the specific project you intend to work with.
 
 ![image](https://github.com/hitalukder/workshop-watsonx.ai/assets/111310676/2c43d95d-2326-4083-83c3-caa4954ea40a)
 

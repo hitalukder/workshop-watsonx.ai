@@ -44,12 +44,8 @@ Copy the  following into the **Instruction (optional)** cell
 ```
 Given the follow db schema and csv file sample create a mapping between each csv field and a column in the database. if no database column matches a csv field, add that field to an array called "unmapped". Generate only the mapping do not add any explanations.
 ```
-Copy the  following into the **Instruction (optional)** cell 
+Copy the following into the **Input:** cell just below *Examples (optional)*
 ```
-Given the follow db schema and csv file sample, create a mapping between each csv field and a column in
-the database as shown in the example below. If no database column matches a csv field add that field to
-an array called "unmapped". Generate only the json mapping, do not add any explanations.
-
 csv_sample:
 state,mailing_address,city,zip,favorite_pastimes,age,weight
 NY,1003 Main St,Albany,10909,fishing,34,80kg
